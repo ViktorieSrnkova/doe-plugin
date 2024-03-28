@@ -9,19 +9,19 @@ trait RenderAwareTrait
 
     public function render(string $path, array $data = []): void
     {
-        // Split array into variables      
-        extract($data);
-
-        foreach ($this->defineResources() as $item) {
+		foreach ($this->defineResources() as $item) {
 			if ($item["type"] === "script") {
 				wp_enqueue_script($item['name'], $item['link']);
 				wp_localize_script($item['name'], 'ajax_object', [
 					'ajax_nonce' => wp_create_nonce($item['id']),
 				]);
 			} else if ($item["type"] === "style") {
-				wp_enqueue_style($item['name'], $item['link']);
+				wp_enqueue_style($item['name'], $item['link'], ver: $item['version'] ?? false);
 			}
 		}
+
+        // Split array into variables
+        extract($data);
 
         $file = $this->getTemplateDir() . $path;
 

@@ -11,6 +11,10 @@ function dumpe($data) {
     die();
 }
 
-function rootDir() {
+function rootDir(): string {
     return realpath(dirname(__FILE__) ."/../");
+}
+
+function rootUrl(): string {
+	return plugin_dir_url(dirname(__FILE__));
 }

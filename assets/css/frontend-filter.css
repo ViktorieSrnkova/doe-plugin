@@ -1,0 +1,40 @@
+.filter-sort{
+    display:flex;
+    width:100%;
+}
+.filter-sort h4{
+    margin-top:0;
+}
+.custom-filter{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.custom-sort{
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    text-align:right;
+}
+#reset-filtering{
+    display:none;
+    border:none;
+    background:none;
+    color:red;
+    cursor:pointer;
+}
+#apply-filtering{
+    /* display:none;
+    margin-left:25px; */
+}
+.invert{
+    font-size:small;
+    line-height:22px;
+}
+.row-filter{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:10px;
+}
+#add-filter{
+    margin-right:10px;
+}
