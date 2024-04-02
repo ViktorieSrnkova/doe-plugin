@@ -33,14 +33,14 @@ class DisplayFilteringAbovePostsHandler extends HookHandler
 				"name" => "frontend-filter",
 				"link" => rootUrl() . "/assets/css/frontend-filter.css",
 				"id" => "filtering",
-				"version" => "1.0",
+				"version" => "1.1",
 				"type" => "style"
 			],
 			[
 				"name" => "frontend-filter",
 				"link" => rootUrl() . "/assets/js/frontend-filter.js",
 				"id" => "filtering",
-				"version" => "1.0",
+				"version" => "1.1",
 				"type" => "script"
 			]
 		];

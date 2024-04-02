@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Doe plugin
 * Description: Plugin pro filtrování a řazení příspěvků na stránkách s příspěvky.
-* Version: 0.5
+* Version: 0.6
 * Author: Viky Srnková
 **/
 
