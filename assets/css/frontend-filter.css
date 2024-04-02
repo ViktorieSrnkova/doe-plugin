@@ -1,40 +1,45 @@
-.filter-sort{
-    display:flex;
-    width:100%;
+#custom-filter-form {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
 }
-.filter-sort h4{
-    margin-top:0;
+.filter-sort {
+  display: flex;
+  width: 100%;
 }
-.custom-filter{
-    display:flex;
-    flex-wrap:nowrap;
+.filter-sort h4 {
+  margin-top: 0;
 }
-.custom-sort{
-    display:flex;
-    flex-direction:column;
-    margin-left:auto;
-    text-align:right;
+.custom-filter {
+  display: flex;
+  flex-wrap: nowrap;
 }
-#reset-filtering{
-    display:none;
-    border:none;
-    background:none;
-    color:red;
-    cursor:pointer;
+.custom-sort {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  text-align: right;
 }
-#apply-filtering{
-    /* display:none;
-    margin-left:25px; */
+#reset-filtering {
+  display: none;
+  border: none;
+  background: none;
+  color: red;
+  cursor: pointer;
 }
-.invert{
-    font-size:small;
-    line-height:22px;
+#apply-filtering {
+  margin-left: auto;
+  margin-top: -22px;
 }
-.row-filter{
-    display:flex;
-    flex-wrap:wrap;
-    margin-top:10px;
+.invert {
+  font-size: small;
+  line-height: 22px;
 }
-#add-filter{
-    margin-right:10px;
+.row-filter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+#add-filter {
+  margin-right: 10px;
 }
